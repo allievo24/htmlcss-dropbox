@@ -47,5 +47,6 @@ header{
 
 .nav{
 border: 4px sold blue;
+display: flex;
 
 }
