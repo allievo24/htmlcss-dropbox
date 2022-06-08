@@ -43,10 +43,14 @@ header{
 .logo{
     height: 100%;
     width: 10%;
+
 }
 
 .nav{
 border: 4px sold blue;
-display: flex;
 
+
+}
+ul{
+   display: flex;
 }
