@@ -116,6 +116,8 @@ img{
 .container {
     width: 80%;
     margin: 0 auto;
+    border: 2px dotted rgb(217, 7, 7);
+
 }
 
 .d-flex{
@@ -281,7 +283,7 @@ img{
 .w-sinistra{
     width: 45%;
     height: 80%;
-    border: 2px solid blue;     
+    border: 2px solid rgb(255, 0, 60);     
 }
 
 
