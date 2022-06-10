@@ -49,24 +49,28 @@ header {
  
 
 .box-destra,.box-sinistra { 
-    height: 50px;
-    width:50% ;
-    display: flex;
-    margin: auto;  
     
+   width: 45%;
+   margin: auto;  
 }
 
+ul{
+    display: flex;
+    justify-content: space-between;
+}
 
+/*regole per di stile comuni per tutti i bottoni*/
 .btn{
-
-
-
-
+ padding: 10px;
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
 }
 
 
 .btn-blue{
  background-color: blue;
+ color: white;
 
 }
 
