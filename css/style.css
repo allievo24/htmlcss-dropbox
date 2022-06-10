@@ -11,7 +11,8 @@
 }
 
 .debug .box-sinistra{
-  border: 2px dotted antiquewhite;
+  border: 2px dotted rgb(198, 116, 10);
+
 }
 .debug .box-destra{
     border: 2px dotted black;
@@ -37,22 +38,37 @@
 header {
     width: 100%;
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
     height: 100px;
     
+    
     background-color:rgba(128, 128, 128, 0.336);
 }
  
-.destra .sinistra{
+
+.box-destra,.box-sinistra { 
     height: 50px;
-    width: 50%;
+    width:50% ;
+    display: flex;
+    margin: auto;  
+    
 }
 
 
+.btn{
 
 
 
+
+}
+
+
+.btn-blue{
+ background-color: blue;
+
+}
 
 
 /*fine header*/
