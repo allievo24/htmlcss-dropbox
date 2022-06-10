@@ -1,4 +1,4 @@
-/*rgola reset*/
+/*regola reset*/
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@
 
 
 .debug header{
-    
+    background-color:rgba(128, 128, 128, 0.336); 
 }
 
 .debug .box-sinistra{
@@ -40,7 +40,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color:rgba(128, 128, 128, 0.336);
+    z-index: 1;
+    
 }
 
 header nav {
@@ -62,16 +63,14 @@ header ul {
 
 header li{
    margin-left: 20px;  
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-
 }
 
-
+/*fine heade*/
 
 /*regole per di stile comuni per tutti i bottoni*/
 .btn{
@@ -97,11 +96,40 @@ nav ul li a {
 /*inizio sezione jambo*/
 
 main{
-margin-top: 100px;
+margin-top:32px;
 }
 
+#jambo{
+    background-color: #b4d0e7 ;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px dotted rgb(217, 7, 7);
 
-  
+}  
+
+#jambo h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+#jambo .container{
+    position: relative;
+    bottom:-100px;
+   
+}
+
+.d-flex{
+    display: flex;
+    border: 2px dotted black;
+    /* width: 80%;
+    height: 100%; */
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #jambo .w-sinistra {
     width: 30%;
 }
@@ -113,22 +141,18 @@ img{
     width: 100%;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    border: 2px dotted rgb(217, 7, 7);
+/*queste classi creata per essere utilizata per creare 
+margine in basso a tutti gl'elementi che la possiedono.
+Il nome sta per (margin-bottom)*/
+.mb-30{
+ margin-bottom: 30px;
 
 }
-
-.d-flex{
-    display: flex;
-    border: 2px dotted black;
-    /* width: 80%;
-    height: 100%; */
-    margin: auto;
-    /*flex-wrap: wrap;*/
-    justify-content: space-between;
+.mb-50{
+    margin-bottom: 50px;
+   
 }
+/*fine jambo*/
 
 
 
@@ -138,8 +162,7 @@ img{
 
 
 
-
-
+/*
 .sezione-tarif{
     border: 2px solid blue;
     margin-left: 140px;
@@ -166,7 +189,7 @@ img{
     border: 2px solid black;
     margin-left: 10px;
 }
-
+*/
 
 
 
