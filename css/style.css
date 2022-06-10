@@ -49,7 +49,7 @@ header {
  
 
 .box-destra,.box-sinistra { 
-    
+   line-height: 50%; 
    width: 45%;
    margin: auto;  
 }
@@ -57,7 +57,16 @@ header {
 ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+
 }
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+}
+
+
 
 /*regole per di stile comuni per tutti i bottoni*/
 .btn{
