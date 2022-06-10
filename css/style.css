@@ -38,32 +38,37 @@
 header {
     width: 100%;
     position: fixed;
-    display: flex;
     top: 0;
     left: 0;
-    height: 100px;
-    
-    
     background-color:rgba(128, 128, 128, 0.336);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
 }
  
 
 .box-destra,.box-sinistra { 
    line-height: 50%; 
-   width: 45%;
-   margin: auto;  
 }
 
-ul{
+header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    list-style: none;
+}
+
+header li{
+   margin-left: 20px;  
 
 }
+
 nav ul li a {
     text-decoration: none;
-    color: black; 
+    color: black;
+
 }
 
 
@@ -89,18 +94,48 @@ nav ul li a {
 
 
 
-/*inizio main*/
+/*inizio sezione jambo*/
 
 main{
 margin-top: 100px;
 }
 
-.sezione-bottom{
+
   
-
-
-
+#jambo .w-sinistra {
+    width: 30%;
 }
+#jambo .w-destra {
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    border: 2px dotted black;
+    /* width: 80%;
+    height: 100%; */
+    margin: auto;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
 
 
 .sezione-tarif{
@@ -200,17 +235,7 @@ margin-top: 100px;
     width: 100%;
     margin-bottom: 20px;
 }
-.d-flex{
-    display: flex;
-    border: 2px dotted black;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
 
-
-}
 
 .colon{
     width: calc(90% / 3);
@@ -251,18 +276,17 @@ margin-top: 100px;
     width: 45%;
     height: 80%;
     border: 2px solid blue; 
-
-
 }
-
-
 
 .w-sinistra{
     width: 45%;
     height: 80%;
     border: 2px solid blue;     
-
 }
+
+
+
+
 
 #faq{
    width:100% ;
