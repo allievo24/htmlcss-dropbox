@@ -106,32 +106,34 @@ margin-top:32px;
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 2px dotted rgb(217, 7, 7);
+    
 
 }  
+
 
 #jambo h1{
     font-size: 70px;
     margin-bottom: 50px;
+    
 }
 #jambo .container{
     position: relative;
-    bottom:-100px;
+    bottom: -100px;
    
 }
 
 .d-flex{
     display: flex;
-    border: 2px dotted black;
     /* width: 80%;
-    height: 100%; */
-    margin: auto;
+    height: 100%; 
+    margin: auto;*/
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #jambo .w-sinistra {
     width: 30%;
+   
 }
 #jambo .w-destra {
     width: 70%;
@@ -140,20 +142,25 @@ margin-top:32px;
 img{
     width: 100%;
 }
+/*fine jambo*/
+
+
 
 /*queste classi creata per essere utilizata per creare 
 margine in basso a tutti gl'elementi che la possiedono.
 Il nome sta per (margin-bottom)*/
 .mb-30{
  margin-bottom: 30px;
-
 }
 .mb-50{
-    margin-bottom: 50px;
-   
+    margin-bottom: 50px;   
 }
-/*fine jambo*/
-
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
 
 
 
@@ -191,26 +198,53 @@ Il nome sta per (margin-bottom)*/
 }
 */
 
+/*Inizio piani*/
+
+#piani{
+   margin-top: 150px;
+   border: 2px solid black; 
+}
 
 
 
-
-.categoria{
-    width: 80%;
+.container-small{
+    width: 60%;
     background-color: brown;
     margin: auto; 
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
 }
 
 .piano-tarif{
     width: calc(80% / 3);
-    height: 400px;
     border: 3px dotted black;
-    margin: auto;
-    margin-top: 10px;
+    
+    
+     
 }
+
+.piani{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0px ;
+    border: 2px solid black;
+}
+
+.piano-tarif ul li{
+    list-style: none;
+    
+}
+
+
+.PI li::before{
+   content: "\2714";
+   color: blue;
+   
+}
+
+
+
+
+
 
 .box-team{
     width: 80%;
