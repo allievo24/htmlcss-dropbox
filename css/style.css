@@ -202,6 +202,7 @@ Il nome sta per (margin-bottom)*/
 
 #piani{
    margin-top: 150px;
+   margin-bottom: 50px;
    border: 2px solid black; 
 }
 
@@ -240,27 +241,44 @@ Il nome sta per (margin-bottom)*/
    color: blue;
    
 }
+/*fine paino tariffe*/
 
 
 
 
+/*Inizio box-team*/
 
 
-.box-team{
+/*.box-team{
     width: 80%;
     height: 300px;
     background-color: lightgrey;
     margin: auto;
     margin-bottom: 50px;
-}
+}*/
+
+
+
+/*Inizio sezione */
 .team{
     height: 50px;
     width: 100%;
     border: 2px solid black;
     text-align: center;
-    margin-bottom: 50px;   
+       
 }
 
+.PT-sinistra{
+    width: 70%;
+    padding-left: 29px;
+}
+
+.PT-destra{
+   width: 25%;
+}
+/*fine sezione */
+
+/*Inizio sezione partner */
 .box-partner{
     width: 80%;
     height: 300px;
@@ -270,12 +288,11 @@ Il nome sta per (margin-bottom)*/
     display: flex;
     justify-content: space-between;
 }
+
 .box-text{
     width: 45%;
     height: 100%;
-    border: 2px solid blue;
-   
-
+    border: 2px solid blue; 
 }
 
 .box-img{
@@ -283,25 +300,27 @@ Il nome sta per (margin-bottom)*/
     height: 100%;
     border: 2px solid red;
 }
+/*Fine sezione */
 
 
 
-
+/*Inizio sezione */
 
 #clienti{
     background-color: aqua;
-    height: 300px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
 }
-
 
 .colon{
     width: calc(90% / 3);
-    height: 50%;
     border:  2px solid blue;
     margin-bottom: 10px;   
 }
+/*fine sezione */
+
+
+
 
 #box-quadrati{
     width: 100%;
@@ -327,24 +346,27 @@ Il nome sta per (margin-bottom)*/
 }
 #pub{
   width: 100%;
-  height: 300px;
+ 
   border:  2px solid blue; 
 }
 
+
 .w-destra{
-    width: 45%;
-    height: 80%;
+    width: 60%;
+    height: 100%;
     border: 2px solid blue; 
 }
 
 .w-sinistra{
-    width: 45%;
-    height: 80%;
+    width: 30%;
     border: 2px solid rgb(255, 0, 60);     
 }
 
-
-
+/*
+#pub .container-small .d-flex{
+    align-items: center;
+}
+*/
 
 
 #faq{
@@ -354,6 +376,13 @@ Il nome sta per (margin-bottom)*/
    background-color: blueviolet; 
 }
 
+
+
+
+
+
+/*inizio sezione footer*/
+
 footer{
     width:100% ;
     height:400PX ;
@@ -362,11 +391,11 @@ footer{
 
 #box-footer{
     width: 90%;
-    height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     border: 2px solid white;
+    color: aliceblue;
 }
 
 .sezioni-footer{
@@ -374,5 +403,5 @@ footer{
     height: 300px;
     margin-top: 20px;
     border: 2px solid white;
-
 }
+
