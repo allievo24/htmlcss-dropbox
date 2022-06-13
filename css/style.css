@@ -388,7 +388,6 @@ Il nome mb-30 sta per (margin-bottom 30px) Ecc*/
 /*Inizio sezione */
 
 #clienti{
-    background-color: aqua;
     width: 100%;
     margin-bottom: 120px;
 }
@@ -513,7 +512,7 @@ background-color:blue ;
 #faq{
    width:100% ;
    margin-bottom: 200px;
-   background-color: blueviolet; 
+    
 }
 
 
