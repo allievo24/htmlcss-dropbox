@@ -87,6 +87,11 @@ nav ul li a {
 
 }
 
+.btn-bianco{
+    background-color: white;
+    color:grey;
+    border: 2px solid grey;
+}
 
 /*fine header*/
 
@@ -327,7 +332,8 @@ Il nome sta per (margin-bottom)*/
     width: 100%;
     height: 400px;
     background-color: red;
-    display: flex;   
+    display: flex;
+       
 }
 
 .quadrato{
@@ -346,8 +352,23 @@ Il nome sta per (margin-bottom)*/
 
 #box-quadrati .quadrato .quadratino img{
     height: 100%;
-    padding: 0px 60px;
+    padding: 40px 40px;
+    
+    
 }
+
+.centrale{
+width: 50%;
+height: 29%;
+margin-left: 30px;
+}
+
+.text{
+    padding: 0px 27px;
+    margin-top: -134px;
+}
+
+
 
 
 
@@ -355,21 +376,36 @@ Il nome sta per (margin-bottom)*/
 
 #pub{
   width: 100%;
- 
-  border:  2px solid blue; 
+  height: 300px;
+  background-color: #B4D0E7; 
+}
+ #pub .container-small{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#pub .d-flex{
+  
+  
 }
 
-
 .w-destra{
-    width: 60%;
+    width: 43%;
     height: 100%;
-    border: 2px solid blue; 
+    border: 2px solid blue;
+    font-size: 26px; 
 }
 
 .w-sinistra{
-    width: 30%;
+    width: 32%;
     border: 2px solid rgb(255, 0, 60);     
 }
+
+
+
+
+
 
 /*
 #pub .container-small .d-flex{
@@ -380,8 +416,7 @@ Il nome sta per (margin-bottom)*/
 
 #faq{
    width:100% ;
-   height:400PX ;
-   margin-bottom: 20px;
+   margin-bottom: 200px;
    background-color: blueviolet; 
 }
 
@@ -423,3 +458,25 @@ footer{
  padding-top: 15px;
  
 }
+
+#box-footer ul{
+ list-style: none;
+ margin-top: 20px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+
+.sezioni-footer li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line{
+    margin-right: 63px;
+    height: 3px;
+    background-color: grey;
+}
+  
