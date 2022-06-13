@@ -94,7 +94,11 @@ border: 3px dotted black;
 
 
 
-
+body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif ;
+}
 
 
 
@@ -139,7 +143,7 @@ nav ul li a {
 
 /*fine heade*/
 
-/*regole per di stile comuni per tutti i bottoni*/
+/*regole  di stile comuni per tutti i bottoni*/
 .btn{
  padding: 10px;
  text-decoration: none;
@@ -221,7 +225,7 @@ img{
 
 /*queste classi creata per essere utilizata per creare 
 margine in basso a tutti gl'elementi che la possiedono.
-Il nome sta per (margin-bottom)*/
+Il nome mb-30 sta per (margin-bottom 30px) Ecc*/
 .mb-30{
  margin-bottom: 30px;
 }
@@ -287,7 +291,9 @@ Il nome sta per (margin-bottom)*/
 }
 
 .piano-tarif{
-    width: calc(80% / 3);
+    width: calc(90% / 3);
+    border: 2px solid gray;
+    padding: 0px 28px;
    
     
     
@@ -307,12 +313,17 @@ Il nome sta per (margin-bottom)*/
     
 }
 
-
+/*icone inserite da qui con pseodo selettore*/
 .PI li::before{
    content: "\2714";
    color: blue;
    
 }
+#piani li{
+    text-indent: -11px;
+}
+
+
 /*fine paino tariffe*/
 
 
@@ -427,8 +438,40 @@ margin-left: 30px;
     padding: 0px 27px;
     margin-top: -134px;
 }
+/*Regola per classe background-colori quadrati */
 
+/* fine sezione quadrati*/
 
+.celeste{
+    background-color:#0093CE ;
+}
+
+.bordo{
+background-color:#61082B ;
+
+}
+
+.green{
+ background-color:#A2D39B ;
+
+}
+
+.red{
+background-color:#FF1C1C ;
+
+}
+.blue{
+background-color:blue ;
+
+}
+.yallow{
+ background-color:#FFD830 ;
+
+}
+.Drob{
+ background-color:#B4D0E7 ;
+
+}
 
 
 
